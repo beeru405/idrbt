@@ -1,8 +1,5 @@
 pipeline {
     agent any
-           catchError(message: 'Hello') {
-    // some block
-}
 
     stages {
         stage('Build') {
